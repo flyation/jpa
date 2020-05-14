@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/stu")
+@RequestMapping("/jpa")
 public class StudentHandler {
     @Autowired
     private StudentRepository studentRepository;
